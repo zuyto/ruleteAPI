@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Persistencia\" />
+    <Folder Include="Persistence\IRepository\" />
+    <Folder Include="Persistence\MapRepository\" />
+    <Folder Include="Persistence\Repository\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
