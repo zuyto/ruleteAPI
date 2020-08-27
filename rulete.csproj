@@ -8,9 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Persistence\IRepository\" />
-    <Folder Include="Persistence\MapRepository\" />
-    <Folder Include="Persistence\Repository\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
