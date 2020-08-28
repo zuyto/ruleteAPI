@@ -5,8 +5,7 @@ using rulete.Persistence.IRepository;
 namespace rulete.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
-    public class RuletteController : ControllerBase
+        public class RuletteController : ControllerBase
     {
         private readonly IRuletteRepository RuletteRepository;
         public RuletteController(IRuletteRepository ruletteRepository)
@@ -19,7 +18,7 @@ namespace rulete.Controllers
         {
             return Ok(RuletteRepository.GetObjRulettes(entidad));
         }
-        [HttpPost]
+        [HttpGet]
         [Route("GetRulette")]
         public IActionResult GetRulette()
         {
